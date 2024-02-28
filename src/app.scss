@@ -21,7 +21,8 @@ a{
 }
 
 body{
-    background-color: rgb(54, 59, 139);
+    
+    background: linear-gradient(to bottom, #f5e1e1, #1f98ef);
     color: lightgray;
 }
 
@@ -30,4 +31,24 @@ body{
 section{
     height: 100vh;
     scroll-snap-align: center;
+}
+
+
+
+
+
+
+.demo{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .box{
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        transform: ;
+    }
+    
 }
